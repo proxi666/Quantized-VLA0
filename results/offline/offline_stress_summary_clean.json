@@ -1,0 +1,37 @@
+{
+  "benchmark": "offline_stress_bf16_int8_nf4_6x30",
+  "elapsed_seconds": 32951.524664452,
+  "status": "success",
+  "num_strata": 6,
+  "samples_per_stratum": 30,
+  "total_target_samples": 180,
+  "modes": {
+    "bf16": {
+      "num_samples": 180,
+      "mean_generation_seconds": 6.859164821738927,
+      "peak_cuda_max_memory_allocated_mb": 7232.86572265625,
+      "mean_mae_vs_bf16": null,
+      "median_mae_vs_bf16": null,
+      "p95_mae_vs_bf16": null,
+      "max_abs_vs_bf16": null
+    },
+    "int8": {
+      "num_samples": 180,
+      "mean_generation_seconds": 28.96263867071079,
+      "peak_cuda_max_memory_allocated_mb": 6607.99462890625,
+      "mean_mae_vs_bf16": 0.01692844794645983,
+      "median_mae_vs_bf16": 0.01433759881183505,
+      "p95_mae_vs_bf16": 0.041094776988029415,
+      "max_abs_vs_bf16": 2.0
+    },
+    "nf4": {
+      "num_samples": 180,
+      "mean_generation_seconds": 10.040419739700175,
+      "peak_cuda_max_memory_allocated_mb": 6564.7646484375,
+      "mean_mae_vs_bf16": 0.9635972747527477,
+      "median_mae_vs_bf16": 0.029817361384630203,
+      "p95_mae_vs_bf16": 0.06817691102623935,
+      "max_abs_vs_bf16": 9374.94921875
+    }
+  }
+}

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the workshop abstract and the artifact repository."
+title: "Quantized-VLA0"
+type: software
+authors:
+  - family-names: "Diwaker"
+    given-names: "Siddhant"
+repository-code: "https://github.com/proxi666/Quantized-VLA0"
+abstract: "Artifact repository for a workshop case study on BF16, INT8, and NF4 quantization of VLA-0 across a six-task LIBERO benchmark and a 180-sample offline stress benchmark."
+keywords:
+  - Vision-Language-Action
+  - quantization
+  - VLA-0
+  - LIBERO
+  - INT8
+  - NF4
+license: "NOASSERTION"

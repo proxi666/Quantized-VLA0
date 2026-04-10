@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-03-18T11:38:30",
+  "protocol": "bf16_final_single_task_benchmark",
+  "model_path": "/kaggle/working/vla0/checkpoints/vla0-libero/model_last",
+  "modes": [
+    "nf4"
+  ],
+  "task_specs": [
+    {
+      "task_suite_name": "libero_object",
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket"
+    }
+  ],
+  "rollout_episodes_per_task": 10,
+  "offline_sample_count": 50,
+  "run_offline_baseline": false,
+  "run_rollout_baseline": true,
+  "num_steps": 0,
+  "start_seed": 7,
+  "action_horizon": 1,
+  "ensemble_prediction": 8,
+  "rollout_task_id_count": 5,
+  "available_gpu_ids": [
+    0
+  ],
+  "rollouts": [
+    {
+      "job_index": 1,
+      "gpu_id": 0,
+      "mode": "nf4",
+      "task_suite_name": "libero_object",
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+      "status": "success",
+      "returncode": 0,
+      "elapsed_seconds": 40698.86712002754,
+      "results_json_path": "/kaggle/working/vla0/checkpoints/vla0-libero/model_last_nf4_ah_1_ens_pred_8_eval_libero/libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/results.json",
+      "success": 8,
+      "failure": 2,
+      "log_path": "/kaggle/working/vla0/research/results/bf16_final_libero_object__pick_up_the_alphabet_soup_and_place_it_in_the_basket_job01.log",
+      "last_log_line": "Evaluation complete."
+    }
+  ],
+  "parse": {
+    "status": "success",
+    "returncode": 0,
+    "tail": "Parsing libero results from: /kaggle/working/vla0/checkpoints/vla0-libero\nFiltered by pattern 'model_last*': 1 folders match\nFound 1 evaluation folders:\n  - model_last_nf4_ah_1_ens_pred_8_eval_libero\n\n================================================================================\nSUMMARY RESULTS (Each evaluation folder treated independently)\n================================================================================\n\n============================================================\nRESULTS FOR: model_last_nf4_ah_1_ens_pred_8_eval_libero\n============================================================\n\n1. SUITE-LEVEL RESULTS for model_last_nf4_ah_1_ens_pred_8_eval_libero:\n--------------------------------------------------\nlibero_object: 0.800 (8/10, 1 tasks)\n\nOVERALL. OVERALL RESULTS for model_last_nf4_ah_1_ens_pred_8_eval_libero:\n--------------------------------------------------\nOverall average across 1 suites: 0.800\nTotal success rate: 8/10 (0.800)\n\n\nResults for: /kaggle/working/vla0/checkpoints/vla0-libero\nEvaluation                                   | libero_spatial   | libero_object          | libero_goal   | libero_10   | OVERALL      \n--------------------------------------------------------------------------------------------------------------------------------------\nmodel_last_nf4_ah_1_ens_pred_8_eval_libero   | N/A              | 80.0 (8/10, 1 tasks)   | N/A           | N/A         | 80.0 (8/10)  "
+  }
+}

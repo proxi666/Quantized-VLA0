@@ -1,0 +1,35 @@
+{
+  "paper_benchmark_name": "vla0_quantized_libero_six_task_case_study",
+  "seed": 7,
+  "action_horizon": 1,
+  "ensemble_prediction": 8,
+  "episodes_per_task": 10,
+  "total_libero_init_states": 50,
+  "int8_execution_note": "INT8 full 10-episode runs were executed as two non-overlapping 5-episode shards and merged afterward.",
+  "tasks": [
+    {
+      "suite": "libero_goal",
+      "task_name": "open_the_middle_drawer_of_the_cabinet"
+    },
+    {
+      "suite": "libero_goal",
+      "task_name": "put_the_bowl_on_the_stove"
+    },
+    {
+      "suite": "libero_object",
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket"
+    },
+    {
+      "suite": "libero_object",
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket"
+    },
+    {
+      "suite": "libero_spatial",
+      "task_name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate"
+    },
+    {
+      "suite": "libero_spatial",
+      "task_name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate"
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "created_at": "2026-03-23T20:31:47",
+  "protocol": "vla0_offline_stress_benchmark_v1",
+  "run_id": "offline_stress_bf16_int8_nf4_6x30_20260323_112236",
+  "checkpoint": "/home/proxi/projects/VLA/vla0/checkpoints/vla0-libero/model_last",
+  "device": "cuda:0",
+  "split": "train",
+  "lerobot_repo_id": "lerobot/libero_10",
+  "load_modes": [
+    "bf16",
+    "int8",
+    "nf4"
+  ],
+  "dataset_len": 101469,
+  "num_strata": 6,
+  "samples_per_stratum": 30,
+  "total_target_samples": 180,
+  "elapsed_seconds": 32951.524664452,
+  "status": "success",
+  "strata": [
+    {
+      "label": "s01_00pct",
+      "start_index": 0,
+      "end_index": 29,
+      "num_samples": 30
+    },
+    {
+      "label": "s02_20pct",
+      "start_index": 20288,
+      "end_index": 20317,
+      "num_samples": 30
+    },
+    {
+      "label": "s03_40pct",
+      "start_index": 40576,
+      "end_index": 40605,
+      "num_samples": 30
+    },
+    {
+      "label": "s04_60pct",
+      "start_index": 60863,
+      "end_index": 60892,
+      "num_samples": 30
+    },
+    {
+      "label": "s05_80pct",
+      "start_index": 81151,
+      "end_index": 81180,
+      "num_samples": 30
+    },
+    {
+      "label": "s06_100pct",
+      "start_index": 101439,
+      "end_index": 101468,
+      "num_samples": 30
+    }
+  ],
+  "runs": [
+    {
+      "label": "s01_00pct",
+      "start_index": 0,
+      "end_index": 29,
+      "num_samples": 30,
+      "returncode": 0,
+      "status": "success",
+      "elapsed_seconds": 1597.590799477999,
+      "output_json": "/home/proxi/projects/VLA/vla0/research/results/active/offline_test/raw/offline_stress_s01_00pct_bf16_int8_nf4_30samples_20260323_112236.json",
+      "log_path": "/home/proxi/projects/VLA/vla0/research/results/active/offline_test/raw/offline_stress_s01_00pct_bf16_int8_nf4_30samples_20260323_112236.log"
+    },
+    {
+      "label": "s02_20pct",
+      "start_index": 20288,
+      "end_index": 20317,
+      "num_samples": 30,
+      "returncode": 0,
+      "status": "success",
+      "elapsed_seconds": 3285.113170056,
+      "output_json": "/home/proxi/projects/VLA/vla0/research/results/active/offline_test/raw/offline_stress_s02_20pct_bf16_int8_nf4_30samples_20260323_114913.json",
+      "log_path": "/home/proxi/projects/VLA/vla0/research/results/active/offline_test/raw/offline_stress_s02_20pct_bf16_int8_nf4_30samples_20260323_114913.log"
+    },
+    {
+      "label": "s03_40pct",
+      "start_index": 40576,
+      "end_index": 40605,
+      "num_samples": 30,
+      "returncode": 0,
+      "status": "success",
+      "elapsed_seconds": 4073.5647594280017,
+      "output_json": "/home/proxi/projects/VLA/vla0/research/results/active/offline_test/raw/offline_stress_s03_40pct_bf16_int8_nf4_30samples_20260323_124358.json",
+      "log_path": "/home/proxi/projects/VLA/vla0/research/results/active/offline_test/raw/offline_stress_s03_40pct_bf16_int8_nf4_30samples_20260323_124358.log"
+    },
+    {
+      "label": "s04_60pct",
+      "start_index": 60863,
+      "end_index": 60892,
+      "num_samples": 30,
+      "returncode": 0,
+      "status": "success",
+      "elapsed_seconds": 5669.842918900002,
+      "output_json": "/home/proxi/projects/VLA/vla0/research/results/active/offline_test/raw/offline_stress_s04_60pct_bf16_int8_nf4_30samples_20260323_135152.json",
+      "log_path": "/home/proxi/projects/VLA/vla0/research/results/active/offline_test/raw/offline_stress_s04_60pct_bf16_int8_nf4_30samples_20260323_135152.log"
+    },
+    {
+      "label": "s05_80pct",
+      "start_index": 81151,
+      "end_index": 81180,
+      "num_samples": 30,
+      "returncode": 0,
+      "status": "success",
+      "elapsed_seconds": 8285.651615831997,
+      "output_json": "/home/proxi/projects/VLA/vla0/research/results/active/offline_test/raw/offline_stress_s05_80pct_bf16_int8_nf4_30samples_20260323_152622.json",
+      "log_path": "/home/proxi/projects/VLA/vla0/research/results/active/offline_test/raw/offline_stress_s05_80pct_bf16_int8_nf4_30samples_20260323_152622.log"
+    },
+    {
+      "label": "s06_100pct",
+      "start_index": 101439,
+      "end_index": 101468,
+      "num_samples": 30,
+      "returncode": 0,
+      "status": "success",
+      "elapsed_seconds": 10039.378026595004,
+      "output_json": "/home/proxi/projects/VLA/vla0/research/results/active/offline_test/raw/offline_stress_s06_100pct_bf16_int8_nf4_30samples_20260323_174428.json",
+      "log_path": "/home/proxi/projects/VLA/vla0/research/results/active/offline_test/raw/offline_stress_s06_100pct_bf16_int8_nf4_30samples_20260323_174428.log"
+    }
+  ],
+  "modes": {
+    "bf16": {
+      "summary": {
+        "num_samples": 180,
+        "mean_load_seconds": 27.116959267666363,
+        "mean_generation_seconds": 6.859164821738927,
+        "median_generation_seconds": 6.639720048497111,
+        "p95_generation_seconds": 9.283810782953879,
+        "mean_cuda_memory_allocated_mb": 7204.00537109375,
+        "mean_cuda_memory_reserved_mb": 7257.444444444444,
+        "mean_cuda_max_memory_allocated_mb": 7232.11669921875,
+        "peak_cuda_max_memory_allocated_mb": 7232.86572265625,
+        "mean_token_count": 56
+      },
+      "per_stratum": {
+        "s01_00pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 29.482693337000455,
+          "mean_cuda_memory_allocated_mb": 7204.00537109375,
+          "mean_cuda_memory_reserved_mb": 7257.933333333333,
+          "mean_cuda_max_memory_allocated_mb": 7232.86572265625,
+          "mean_generation_seconds": 7.315167445533371,
+          "mean_token_count": 56
+        },
+        "s02_20pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 23.52140534099999,
+          "mean_cuda_memory_allocated_mb": 7204.00537109375,
+          "mean_cuda_memory_reserved_mb": 7258.0,
+          "mean_cuda_max_memory_allocated_mb": 7232.05908203125,
+          "mean_generation_seconds": 6.911673682100082,
+          "mean_token_count": 56
+        },
+        "s03_40pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 21.151998620000086,
+          "mean_cuda_memory_allocated_mb": 7204.00537109375,
+          "mean_cuda_memory_reserved_mb": 7258.0,
+          "mean_cuda_max_memory_allocated_mb": 7231.59814453125,
+          "mean_generation_seconds": 5.401752836999852,
+          "mean_token_count": 56
+        },
+        "s04_60pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 25.234029447001376,
+          "mean_cuda_memory_allocated_mb": 7204.00537109375,
+          "mean_cuda_memory_reserved_mb": 7256.0,
+          "mean_cuda_max_memory_allocated_mb": 7232.05908203125,
+          "mean_generation_seconds": 6.769601956000285,
+          "mean_token_count": 56
+        },
+        "s05_80pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 33.688695924996864,
+          "mean_cuda_memory_allocated_mb": 7204.00537109375,
+          "mean_cuda_memory_reserved_mb": 7256.733333333334,
+          "mean_cuda_max_memory_allocated_mb": 7232.05908203125,
+          "mean_generation_seconds": 7.844769445933343,
+          "mean_token_count": 56
+        },
+        "s06_100pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 29.622932935999415,
+          "mean_cuda_memory_allocated_mb": 7204.00537109375,
+          "mean_cuda_memory_reserved_mb": 7258.0,
+          "mean_cuda_max_memory_allocated_mb": 7232.05908203125,
+          "mean_generation_seconds": 6.912023563866629,
+          "mean_token_count": 56
+        }
+      },
+      "worst_cases": []
+    },
+    "int8": {
+      "summary": {
+        "num_samples": 180,
+        "mean_load_seconds": 33.59648018383299,
+        "mean_generation_seconds": 28.96263867071079,
+        "median_generation_seconds": 26.861921163998886,
+        "p95_generation_seconds": 46.00371621659869,
+        "mean_cuda_memory_allocated_mb": 3927.994832356771,
+        "mean_cuda_memory_reserved_mb": 4552.9111111111115,
+        "mean_cuda_max_memory_allocated_mb": 6539.68310546875,
+        "peak_cuda_max_memory_allocated_mb": 6607.99462890625,
+        "mean_token_count": 56,
+        "mean_mae_vs_bf16": 0.01692844794645983,
+        "median_mae_vs_bf16": 0.01433759881183505,
+        "p95_mae_vs_bf16": 0.041094776988029415,
+        "mean_mse_vs_bf16": 0.0052052425188763764,
+        "max_abs_vs_bf16": 2.0,
+        "exact_text_match_rate_vs_bf16": 0.0
+      },
+      "per_stratum": {
+        "s01_00pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 24.740273318999243,
+          "mean_cuda_memory_allocated_mb": 3927.995149739583,
+          "mean_cuda_memory_reserved_mb": 4527.666666666667,
+          "mean_cuda_max_memory_allocated_mb": 6607.99462890625,
+          "mean_generation_seconds": 31.889579589299988,
+          "mean_token_count": 56,
+          "vs_bf16_available": true,
+          "mean_mae_vs_bf16": 0.020563572567577165,
+          "mean_mse_vs_bf16": 0.0029425394706777295,
+          "max_abs_vs_bf16": 0.5550000071525574,
+          "exact_text_match_rate_vs_bf16": 0.0
+        },
+        "s02_20pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 30.47136336299991,
+          "mean_cuda_memory_allocated_mb": 3927.98876953125,
+          "mean_cuda_memory_reserved_mb": 4549.266666666666,
+          "mean_cuda_max_memory_allocated_mb": 6534.60400390625,
+          "mean_generation_seconds": 25.749524279066705,
+          "mean_token_count": 56,
+          "vs_bf16_available": true,
+          "mean_mae_vs_bf16": 0.014220692589879036,
+          "mean_mse_vs_bf16": 0.0009979680072622918,
+          "max_abs_vs_bf16": 0.361875057220459,
+          "exact_text_match_rate_vs_bf16": 0.0
+        },
+        "s03_40pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 26.743714053001895,
+          "mean_cuda_memory_allocated_mb": 3927.99990234375,
+          "mean_cuda_memory_reserved_mb": 4566.866666666667,
+          "mean_cuda_max_memory_allocated_mb": 6534.60400390625,
+          "mean_generation_seconds": 24.154990785366316,
+          "mean_token_count": 56,
+          "vs_bf16_available": true,
+          "mean_mae_vs_bf16": 0.01363561163501193,
+          "mean_mse_vs_bf16": 0.0007642899490747368,
+          "max_abs_vs_bf16": 0.2174999713897705,
+          "exact_text_match_rate_vs_bf16": 0.0
+        },
+        "s04_60pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 39.54818374599927,
+          "mean_cuda_memory_allocated_mb": 3927.9942545572917,
+          "mean_cuda_memory_reserved_mb": 4507.133333333333,
+          "mean_cuda_max_memory_allocated_mb": 6534.60400390625,
+          "mean_generation_seconds": 23.886752033266628,
+          "mean_token_count": 56,
+          "vs_bf16_available": true,
+          "mean_mae_vs_bf16": 0.017851683869957925,
+          "mean_mse_vs_bf16": 0.0010907426748114327,
+          "max_abs_vs_bf16": 0.22312495112419128,
+          "exact_text_match_rate_vs_bf16": 0.0
+        },
+        "s05_80pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 38.38779007699486,
+          "mean_cuda_memory_allocated_mb": 3928.0005859375,
+          "mean_cuda_memory_reserved_mb": 4588.0,
+          "mean_cuda_max_memory_allocated_mb": 6534.60400390625,
+          "mean_generation_seconds": 31.896773417399526,
+          "mean_token_count": 56,
+          "vs_bf16_available": true,
+          "mean_mae_vs_bf16": 0.011677498547942377,
+          "mean_mse_vs_bf16": 0.005238525755135015,
+          "max_abs_vs_bf16": 2.0,
+          "exact_text_match_rate_vs_bf16": 0.0
+        },
+        "s06_100pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 41.687556545002735,
+          "mean_cuda_memory_allocated_mb": 3927.99033203125,
+          "mean_cuda_memory_reserved_mb": 4578.533333333334,
+          "mean_cuda_max_memory_allocated_mb": 6491.68798828125,
+          "mean_generation_seconds": 36.19821191986557,
+          "mean_token_count": 56,
+          "vs_bf16_available": true,
+          "mean_mae_vs_bf16": 0.023621628468390554,
+          "mean_mse_vs_bf16": 0.020197389256297053,
+          "max_abs_vs_bf16": 2.0,
+          "exact_text_match_rate_vs_bf16": 0.0
+        }
+      },
+      "worst_cases": [
+        {
+          "sample_index": 101447,
+          "stratum": "s06_100pct",
+          "instruction": "put both the cream cheese box and the butter in the basket",
+          "generation_seconds": 42.76388686199789,
+          "pred_action_txt": "370 643 267 421 600 558 1000 439 653 327 421 616 548 1000 483 650 370 421 626 540 1000 500 627 413 421 621 496 1000 500 603 430 421 616 495 1000 500 596 443 421 600 495 1000 500 566 466 412 584 495 1000 500 543 500 377 554 495 1000",
+          "gt_action_text": "439 643 327 421 616 524 1000 483 653 370 421 626 518 1000 500 633 413 421 621 495 1000 500 613 430 421 616 495 1000 500 606 443 421 600 495 1000 500 601 474 412 580 495 0 500 596 491 408 571 495 0 520 596 500 394 567 495 0",
+          "mae": 0.07999473065137863,
+          "mse": 0.14312267303466797,
+          "max_abs": 2.0,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 2,
+          "stratum": "s01_00pct",
+          "instruction": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+          "generation_seconds": 28.031777610000063,
+          "pred_action_txt": "500 346 474 421 500 495 0 500 296 469 421 500 495 0 494 263 463 421 500 495 0 480 210 446 431 500 495 0 480 180 433 459 500 495 0 489 187 419 457 500 495 0 489 193 404 452 497 495 0 487 197 393 443 493 495 0",
+          "gt_action_text": "501 500 500 421 500 495 0 500 494 500 421 500 495 0 500 471 500 421 500 495 0 500 433 493 421 500 495 0 497 383 476 421 500 495 0 484 340 460 421 500 495 0 481 313 447 421 500 495 0 490 289 437 421 500 495 0",
+          "mae": 0.0798836275935173,
+          "mse": 0.02916811592876911,
+          "max_abs": 0.5550000071525574,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 101445,
+          "stratum": "s06_100pct",
+          "instruction": "put both the cream cheese box and the butter in the basket",
+          "generation_seconds": 40.550176668999484,
+          "pred_action_txt": "370 620 246 421 603 495 1000 420 643 294 421 607 495 1000 463 653 330 421 616 495 1000 490 639 347 421 626 495 1000 500 613 370 421 624 495 1000 500 606 403 421 616 495 1000 500 601 466 412 600 495 0 500 596 500 394 597 495 0",
+          "gt_action_text": "304 606 236 421 607 522 1000 364 623 267 421 607 525 1000 439 643 327 421 616 524 1000 483 653 370 421 626 518 1000 500 633 413 421 621 495 1000 500 613 430 421 616 495 1000 500 606 443 421 600 495 1000 500 601 474 412 580 495 0",
+          "mae": 0.07746761292219162,
+          "mse": 0.14305421710014343,
+          "max_abs": 2.0,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 5,
+          "stratum": "s01_00pct",
+          "instruction": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+          "generation_seconds": 30.3559343779998,
+          "pred_action_txt": "514 500 500 421 500 495 0 511 500 500 421 500 495 0 510 500 500 421 500 495 0 509 500 500 421 500 495 0 511 500 500 421 500 495 0 514 500 500 421 500 495 0 530 500 500 421 500 495 0 534 500 500 421 500 495 0",
+          "gt_action_text": "500 433 493 421 500 495 0 497 383 476 421 500 495 0 484 340 460 421 500 495 0 481 313 447 421 500 495 0 490 289 437 421 500 495 0 489 256 427 435 500 495 0 489 210 421 462 503 495 0 500 153 426 496 513 495 0",
+          "mae": 0.06564942747354507,
+          "mse": 0.022522708401083946,
+          "max_abs": 0.5118750333786011,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 101449,
+          "stratum": "s06_100pct",
+          "instruction": "put both the cream cheese box and the butter in the basket",
+          "generation_seconds": 48.84374035200017,
+          "pred_action_txt": "403 620 336 421 600 495 1000 456 614 373 421 596 495 1000 487 607 414 421 580 495 1000 500 600 466 421 576 495 1000 500 597 493 412 567 495 0 500 591 500 396 550 495 0 520 596 540 377 551 495 0 529 591 596 366 560 495 0",
+          "gt_action_text": "500 633 413 421 621 495 1000 500 613 430 421 616 495 1000 500 606 443 421 600 495 1000 500 601 474 412 580 495 0 500 596 491 408 571 495 0 520 596 500 394 567 495 0 529 597 500 389 567 495 0 524 591 523 391 567 495 0",
+          "mae": 0.06209252402186394,
+          "mse": 0.07394130527973175,
+          "max_abs": 2.0,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 101450,
+          "stratum": "s06_100pct",
+          "instruction": "put both the cream cheese box and the butter in the basket",
+          "generation_seconds": 48.38067490399408,
+          "pred_action_txt": "493 627 377 421 600 495 1000 500 616 416 421 616 495 1000 500 607 431 421 600 495 0 500 563 450 412 597 495 0 500 536 469 408 584 495 0 471 516 486 412 577 495 0 466 500 500 421 576 495 0 463 500 500 421 567 495 0",
+          "gt_action_text": "500 613 430 421 616 495 1000 500 606 443 421 600 495 1000 500 601 474 412 580 495 0 500 596 491 408 571 495 0 520 596 500 394 567 495 0 529 597 500 389 567 495 0 524 591 523 391 567 495 0 503 576 550 405 561 495 0",
+          "mae": 0.048061173409223557,
+          "mse": 0.07191051542758942,
+          "max_abs": 2.0,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 101444,
+          "stratum": "s06_100pct",
+          "instruction": "put both the cream cheese box and the butter in the basket",
+          "generation_seconds": 29.27806858200347,
+          "pred_action_txt": "393 623 247 421 603 495 1000 420 623 267 421 607 495 1000 464 614 320 421 616 495 1000 490 606 347 421 616 495 1000 500 607 374 421 616 495 1000 500 601 403 412 600 495 1000 500 606 466 370 580 495 1000 500 594 500 358 557 495 0",
+          "gt_action_text": "293 614 251 421 609 508 1000 304 606 236 421 607 522 1000 364 623 267 421 607 525 1000 439 643 327 421 616 524 1000 483 653 370 421 626 518 1000 500 633 413 421 621 495 1000 500 613 430 421 616 495 1000 500 606 443 421 600 495 1000",
+          "mae": 0.047524333000183105,
+          "mse": 0.0720304623246193,
+          "max_abs": 2.0,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 81171,
+          "stratum": "s05_80pct",
+          "instruction": "turn on the stove and put the moka pot on it",
+          "generation_seconds": 44.10959816400282,
+          "pred_action_txt": "423 500 287 421 473 616 0 434 500 281 421 473 615 1000 457 500 279 422 473 615 1000 473 500 286 421 470 612 1000 480 500 294 421 466 610 1000 484 500 330 421 466 608 1000 490 500 364 421 466 599 1000 500 500 396 421 463 587 1000",
+          "gt_action_text": "427 500 274 421 483 616 1000 437 500 273 422 483 616 1000 451 500 283 421 489 615 1000 460 500 294 421 489 612 1000 473 500 330 421 490 608 1000 480 500 364 421 481 597 1000 484 500 396 421 470 587 1000 490 500 423 421 466 579 1000",
+          "mae": 0.046466995030641556,
+          "mse": 0.07199691981077194,
+          "max_abs": 2.0,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 101446,
+          "stratum": "s06_100pct",
+          "instruction": "put both the cream cheese box and the butter in the basket",
+          "generation_seconds": 53.48453091600095,
+          "pred_action_txt": "359 623 267 421 607 522 1000 423 653 327 421 616 518 1000 473 633 363 421 626 495 1000 500 613 413 421 621 495 1000 500 606 430 421 616 495 1000 500 601 443 412 600 495 1000 500 596 464 396 580 495 0 500 559 470 405 576 495 0",
+          "gt_action_text": "364 623 267 421 607 525 1000 439 643 327 421 616 524 1000 483 653 370 421 626 518 1000 500 633 413 421 621 495 1000 500 613 430 421 616 495 1000 500 606 443 421 600 495 1000 500 601 474 412 580 495 0 500 596 491 408 571 495 0",
+          "mae": 0.044562045484781265,
+          "mse": 0.07184422761201859,
+          "max_abs": 2.0,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 81168,
+          "stratum": "s05_80pct",
+          "instruction": "turn on the stove and put the moka pot on it",
+          "generation_seconds": 22.70112545399752,
+          "pred_action_txt": "383 500 304 421 469 629 0 404 500 303 421 477 625 0 421 500 294 421 480 619 0 429 500 291 421 483 616 1000 434 500 290 422 483 616 1000 450 500 296 421 489 615 1000 460 500 313 421 489 612 1000 473 500 349 421 490 608 1000",
+          "gt_action_text": "386 500 300 421 473 629 0 404 500 289 421 480 625 0 419 500 281 421 483 619 0 427 500 274 421 483 616 1000 437 500 273 422 483 616 1000 451 500 283 421 489 615 1000 460 500 294 421 489 612 1000 473 500 330 421 490 608 1000",
+          "mae": 0.040912289172410965,
+          "mse": 0.07167553901672363,
+          "max_abs": 2.0,
+          "exact_text_match_bf16": false
+        }
+      ]
+    },
+    "nf4": {
+      "summary": {
+        "num_samples": 180,
+        "mean_load_seconds": 25.342267867834682,
+        "mean_generation_seconds": 10.040419739700175,
+        "median_generation_seconds": 9.41659613199954,
+        "p95_generation_seconds": 14.328706764352665,
+        "mean_cuda_memory_allocated_mb": 2334.33740234375,
+        "mean_cuda_memory_reserved_mb": 2781.6444444444446,
+        "mean_cuda_max_memory_allocated_mb": 6522.078206380208,
+        "peak_cuda_max_memory_allocated_mb": 6564.7646484375,
+        "mean_token_count": 55.99444444444445,
+        "mean_mae_vs_bf16": 0.9635972747527477,
+        "median_mae_vs_bf16": 0.029817361384630203,
+        "p95_mae_vs_bf16": 0.06817691102623935,
+        "mean_mse_vs_bf16": 8719.225911727763,
+        "max_abs_vs_bf16": 9374.94921875,
+        "exact_text_match_rate_vs_bf16": 0.0
+      },
+      "per_stratum": {
+        "s01_00pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 21.67400253100095,
+          "mean_cuda_memory_allocated_mb": 2334.33740234375,
+          "mean_cuda_memory_reserved_mb": 2781.9333333333334,
+          "mean_cuda_max_memory_allocated_mb": 6563.37109375,
+          "mean_generation_seconds": 10.99165312906698,
+          "mean_token_count": 55.96666666666667,
+          "vs_bf16_available": true,
+          "mean_mae_vs_bf16": 5.614836077516277,
+          "mean_mse_vs_bf16": 52315.2831467371,
+          "max_abs_vs_bf16": 9374.94921875,
+          "exact_text_match_rate_vs_bf16": 0.0
+        },
+        "s02_20pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 21.8744127989994,
+          "mean_cuda_memory_allocated_mb": 2334.33740234375,
+          "mean_cuda_memory_reserved_mb": 2762.0,
+          "mean_cuda_max_memory_allocated_mb": 6563.37109375,
+          "mean_generation_seconds": 9.686575284966844,
+          "mean_token_count": 56,
+          "vs_bf16_available": true,
+          "mean_mae_vs_bf16": 0.026762262110908826,
+          "mean_mse_vs_bf16": 0.002582612447925688,
+          "max_abs_vs_bf16": 0.35062503814697266,
+          "exact_text_match_rate_vs_bf16": 0.0
+        },
+        "s03_40pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 29.013883965999412,
+          "mean_cuda_memory_allocated_mb": 2334.33740234375,
+          "mean_cuda_memory_reserved_mb": 2781.9333333333334,
+          "mean_cuda_max_memory_allocated_mb": 6564.2646484375,
+          "mean_generation_seconds": 9.099839742066857,
+          "mean_token_count": 56,
+          "vs_bf16_available": true,
+          "mean_mae_vs_bf16": 0.03194662627453605,
+          "mean_mse_vs_bf16": 0.0036672824256432555,
+          "max_abs_vs_bf16": 0.3674999475479126,
+          "exact_text_match_rate_vs_bf16": 0.0
+        },
+        "s04_60pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 16.154730019999988,
+          "mean_cuda_memory_allocated_mb": 2334.33740234375,
+          "mean_cuda_memory_reserved_mb": 2800.0,
+          "mean_cuda_max_memory_allocated_mb": 6345.2333984375,
+          "mean_generation_seconds": 8.313885427600447,
+          "mean_token_count": 56,
+          "vs_bf16_available": true,
+          "mean_mae_vs_bf16": 0.035167584816614784,
+          "mean_mse_vs_bf16": 0.0029880143605017415,
+          "max_abs_vs_bf16": 0.30749988555908203,
+          "exact_text_match_rate_vs_bf16": 0.0
+        },
+        "s05_80pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 33.49425897400215,
+          "mean_cuda_memory_allocated_mb": 2334.33740234375,
+          "mean_cuda_memory_reserved_mb": 2802.0,
+          "mean_cuda_max_memory_allocated_mb": 6531.46435546875,
+          "mean_generation_seconds": 11.383531740432954,
+          "mean_token_count": 56,
+          "vs_bf16_available": true,
+          "mean_mae_vs_bf16": 0.031850173821051916,
+          "mean_mse_vs_bf16": 0.027499102464692744,
+          "max_abs_vs_bf16": 2.0,
+          "exact_text_match_rate_vs_bf16": 0.0
+        },
+        "s06_100pct": {
+          "num_samples": 30,
+          "mean_load_seconds": 29.842318917006196,
+          "mean_cuda_memory_allocated_mb": 2334.33740234375,
+          "mean_cuda_memory_reserved_mb": 2762.0,
+          "mean_cuda_max_memory_allocated_mb": 6564.7646484375,
+          "mean_generation_seconds": 10.767033114066969,
+          "mean_token_count": 56,
+          "vs_bf16_available": true,
+          "mean_mae_vs_bf16": 0.041020923977096876,
+          "mean_mse_vs_bf16": 0.03558661777836581,
+          "max_abs_vs_bf16": 2.0,
+          "exact_text_match_rate_vs_bf16": 0.0
+        }
+      },
+      "worst_cases": [
+        {
+          "sample_index": 8,
+          "stratum": "s01_00pct",
+          "instruction": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+          "generation_seconds": 10.872126715999912,
+          "pred_action_txt": "500 493 500 394 500 495 0 503 467 500 394 500 495 0 500 470 500 394 500 495 0 500 469 500 394 500 495 0 500 467 500 393 500 495 0 500 451 5000400 500 495 0 500 406 500 421 500 495 0 500 347 500 421 504 495 0",
+          "gt_action_text": "481 313 447 421 500 495 0 490 289 437 421 500 495 0 489 256 427 435 500 495 0 489 210 421 462 503 495 0 500 153 426 496 513 495 0 500 137 426 503 520 499 0 500 120 429 511 521 506 0 500 111 429 520 520 512 0",
+          "mae": 167.55917358398438,
+          "mse": 1569458.375,
+          "max_abs": 9374.94921875,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 101449,
+          "stratum": "s06_100pct",
+          "instruction": "put both the cream cheese box and the butter in the basket",
+          "generation_seconds": 17.623975493996113,
+          "pred_action_txt": "433 633 374 421 627 518 1000 446 627 386 421 627 519 1000 473 620 400 421 623 522 1000 500 621 450 421 621 522 1000 500 614 466 421 616 518 1000 500 606 496 421 600 495 1000 500 586 500 412 580 495 0 500 556 500 405 571 495 0",
+          "gt_action_text": "500 633 413 421 621 495 1000 500 613 430 421 616 495 1000 500 606 443 421 600 495 1000 500 601 474 412 580 495 0 500 596 491 408 571 495 0 520 596 500 394 567 495 0 529 597 500 389 567 495 0 524 591 523 391 567 495 0",
+          "mae": 0.13524220883846283,
+          "mse": 0.21624603867530823,
+          "max_abs": 2.0,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 101450,
+          "stratum": "s06_100pct",
+          "instruction": "put both the cream cheese box and the butter in the basket",
+          "generation_seconds": 17.818794555998466,
+          "pred_action_txt": "493 626 426 421 594 515 1000 500 613 460 421 600 509 1000 500 606 473 421 580 495 1000 500 586 491 421 563 495 1000 500 551 500 421 554 495 0 500 521 500 405 544 495 0 500 521 500 396 521 495 0 500 521 500 394 516 495 0",
+          "gt_action_text": "500 613 430 421 616 495 1000 500 606 443 421 600 495 1000 500 601 474 412 580 495 0 500 596 491 408 571 495 0 520 596 500 394 567 495 0 529 597 500 389 567 495 0 524 591 523 391 567 495 0 503 576 550 405 561 495 0",
+          "mae": 0.12133152037858963,
+          "mse": 0.2150278389453888,
+          "max_abs": 2.0,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 101452,
+          "stratum": "s06_100pct",
+          "instruction": "put both the cream cheese box and the butter in the basket",
+          "generation_seconds": 9.441226982002263,
+          "pred_action_txt": "493 630 376 421 629 495 1000 500 613 420 421 627 495 1000 500 606 443 421 623 495 0 500 573 484 417 600 495 0 500 551 500 405 580 473 0 500 544 500 401 563 469 0 500 525 513 400 549 466 0 490 504 534 412 521 472 0",
+          "gt_action_text": "500 601 474 412 580 495 0 500 596 491 408 571 495 0 520 596 500 394 567 495 0 529 597 500 389 567 495 0 524 591 523 391 567 495 0 503 576 550 405 561 495 0 500 559 561 417 547 495 0 500 523 569 421 521 495 0",
+          "mae": 0.10095559805631638,
+          "mse": 0.14482656121253967,
+          "max_abs": 2.0,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 81171,
+          "stratum": "s05_80pct",
+          "instruction": "turn on the stove and put the moka pot on it",
+          "generation_seconds": 16.237438347001444,
+          "pred_action_txt": "433 520 293 421 480 616 0 436 519 296 421 481 615 0 437 516 300 421 486 615 1000 444 513 303 421 489 610 1000 450 506 313 421 490 608 1000 454 506 323 421 494 605 1000 457 509 340 421 496 599 1000 466 511 363 421 500 590 1000",
+          "gt_action_text": "427 500 274 421 483 616 1000 437 500 273 422 483 616 1000 451 500 283 421 489 615 1000 460 500 294 421 489 612 1000 473 500 330 421 490 608 1000 480 500 364 421 481 597 1000 484 500 396 421 470 587 1000 490 500 423 421 466 579 1000",
+          "mae": 0.0902065560221672,
+          "mse": 0.14389251172542572,
+          "max_abs": 2.0,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 81168,
+          "stratum": "s05_80pct",
+          "instruction": "turn on the stove and put the moka pot on it",
+          "generation_seconds": 9.346330366002803,
+          "pred_action_txt": "403 520 309 421 480 638 0 390 514 313 421 479 633 0 389 510 317 421 476 625 0 391 504 320 421 477 618 0 404 500 323 421 486 612 0 417 500 326 421 489 605 0 427 500 333 421 490 600 1000 434 500 349 421 499 595 1000",
+          "gt_action_text": "386 500 300 421 473 629 0 404 500 289 421 480 625 0 419 500 281 421 483 619 0 427 500 274 421 483 616 1000 437 500 273 422 483 616 1000 451 500 283 421 489 615 1000 460 500 294 421 489 612 1000 473 500 330 421 490 608 1000",
+          "mae": 0.08896194398403168,
+          "mse": 0.1438203603029251,
+          "max_abs": 2.0,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 101451,
+          "stratum": "s06_100pct",
+          "instruction": "put both the cream cheese box and the butter in the basket",
+          "generation_seconds": 10.238026559003629,
+          "pred_action_txt": "493 627 400 421 596 515 1000 500 613 456 421 600 495 1000 500 606 483 421 580 495 1000 500 591 500 421 563 495 0 500 551 500 405 540 495 0 500 540 500 401 521 495 0 471 524 500 412 500 495 0 466 500 500 421 500 495 0",
+          "gt_action_text": "500 606 443 421 600 495 1000 500 601 474 412 580 495 0 500 596 491 408 571 495 0 520 596 500 394 567 495 0 529 597 500 389 567 495 0 524 591 523 391 567 495 0 503 576 550 405 561 495 0 500 559 561 417 547 495 0",
+          "mae": 0.08123844861984253,
+          "mse": 0.14323213696479797,
+          "max_abs": 2.0,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 3,
+          "stratum": "s01_00pct",
+          "instruction": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+          "generation_seconds": 10.885226436001176,
+          "pred_action_txt": "523 490 500 394 500 495 0 529 487 500 394 500 495 0 534 489 500 394 500 495 0 534 491 500 393 500 495 0 540 489 500 393 500 495 0 557 484 500 396 500 495 0 559 444 500 405 500 495 0 557 480 500 421 500 495 0",
+          "gt_action_text": "500 494 500 421 500 495 0 500 471 500 421 500 495 0 500 433 493 421 500 495 0 497 383 476 421 500 495 0 484 340 460 421 500 495 0 481 313 447 421 500 495 0 490 289 437 421 500 495 0 489 256 427 435 500 495 0",
+          "mae": 0.07298635691404343,
+          "mse": 0.024736573919653893,
+          "max_abs": 0.5568749904632568,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 6,
+          "stratum": "s01_00pct",
+          "instruction": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+          "generation_seconds": 10.847821562998433,
+          "pred_action_txt": "500 497 500 421 500 486 0 500 483 500 421 500 486 0 500 466 500 421 500 485 0 500 453 500 421 500 482 0 500 420 500 421 503 481 0 500 397 500 421 500 483 0 500 339 493 421 500 485 0 500 323 473 421 500 492 0",
+          "gt_action_text": "497 383 476 421 500 495 0 484 340 460 421 500 495 0 481 313 447 421 500 495 0 490 289 437 421 500 495 0 489 256 427 435 500 495 0 489 210 421 462 503 495 0 500 153 426 496 513 495 0 500 137 426 503 520 499 0",
+          "mae": 0.07088031619787216,
+          "mse": 0.019379138946533203,
+          "max_abs": 0.39375001192092896,
+          "exact_text_match_bf16": false
+        },
+        {
+          "sample_index": 60866,
+          "stratum": "s04_60pct",
+          "instruction": "turn on the stove and put the moka pot on it",
+          "generation_seconds": 8.181896902002336,
+          "pred_action_txt": "821 291 766 464 500 495 0 813 289 754 472 500 495 0 810 276 741 478 500 495 0 787 261 729 487 500 495 0 769 254 714 499 500 512 0 756 247 707 513 500 531 0 741 226 686 525 500 554 0 730 211 663 536 500 567 0",
+          "gt_action_text": "826 234 733 517 500 495 0 784 207 723 538 500 495 0 719 186 707 553 477 527 0 683 169 687 565 451 580 0 671 161 677 578 430 606 0 666 156 663 590 414 626 0 656 146 656 604 403 631 0 660 126 641 625 401 629 0",
+          "mae": 0.06803462654352188,
+          "mse": 0.007754984777420759,
+          "max_abs": 0.1743750274181366,
+          "exact_text_match_bf16": false
+        }
+      ]
+    }
+  }
+}

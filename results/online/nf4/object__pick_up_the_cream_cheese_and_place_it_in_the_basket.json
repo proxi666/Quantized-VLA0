@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-03-21T00:00:00",
+  "protocol": "nf4_final_single_task_benchmark_recovered_from_local_results",
+  "model_path": "/home/proxi/projects/VLA/vla0/checkpoints/vla0-libero/model_last",
+  "modes": [
+    "nf4"
+  ],
+  "task_specs": [
+    {
+      "task_suite_name": "libero_object",
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket"
+    }
+  ],
+  "rollout_episodes_per_task": 10,
+  "run_rollout_baseline": true,
+  "num_steps": 0,
+  "start_seed": 7,
+  "action_horizon": 1,
+  "ensemble_prediction": 8,
+  "rollouts": [
+    {
+      "job_index": 1,
+      "gpu_id": 0,
+      "mode": "nf4",
+      "task_suite_name": "libero_object",
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket",
+      "status": "success",
+      "returncode": 0,
+      "results_json_path": "/home/proxi/projects/VLA/vla0/checkpoints/vla0-libero/model_last_nf4_ah_1_ens_pred_8_eval_libero/libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket/results.json",
+      "success": 3,
+      "failure": 7,
+      "log_path": null,
+      "last_log_line": "(recovered from local results.json)"
+    }
+  ],
+  "parse": null
+}
