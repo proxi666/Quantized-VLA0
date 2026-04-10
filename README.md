@@ -71,7 +71,7 @@ Matched setup:
 ```text
 Quantized-VLA0/
 ├── paper/
-│   └── icra2026_vla_pipeline_aligned.pdf
+│   └── icra2026_vla_pipeline.pdf
 ├── figures/
 │   ├── generate_pertask_figure.py
 │   ├── vla0_pertask_results.pdf
@@ -101,7 +101,7 @@ Quantized-VLA0/
 
 ### 1. Read the paper
 
-- [`paper/icra2026_vla_pipeline_aligned.pdf`](paper/icra2026_vla_pipeline_aligned.pdf)
+- [`paper/icra2026_vla_pipeline.pdf`](paper/icra2026_vla_pipeline.pdf)
 
 ### 2. Regenerate the summary tables from the released JSONs
 
